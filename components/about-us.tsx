@@ -17,18 +17,23 @@ function AboutUs() {
     >
       <SectionHeader>About Me</SectionHeader>
       <p className="mb-3">
-        <span className="font-medium bold">JavaScript/TypeScript</span>{" "}
-        developer with 3 years of experience specializing in scalable B2B and
-        B2C applications, encompassing both monolithic and event-driven
-        architectures.
+        I'm a <span className="font-medium bold">Full-Stack Developer</span>{" "}
+        with 4+ years of experience building web applications for B2B and B2C
+        products. Over the years I've worked across the full stack, but my
+        strongest area is{" "}
+        <span className="font-medium bold">Angular and TypeScript</span> — I've
+        used it across multiple production products, from small startups to
+        enterprise-scale platforms.
       </p>
 
       <p>
-        I possess a keen understanding of client visual design intent and excel
-        in creating and maintaining reusable code bases. Motivated by a passion
-        for leveraging leading-edge technologies, I am dedicated to crafting
-        software solutions with optimal performance using JavaScript and
-        TypeScript on a large scale.
+        Right now I'm working at Vroozi, an AI-powered procurement SaaS, where I
+        build complex modules and workflows used by enterprise clients.
+        Alongside that, I work with international clients on freelance projects
+        — mostly around integrating AI into existing web apps using the OpenAI
+        and Claude APIs. I enjoy working on products that solve real problems,
+        and I take pride in writing code that's clean enough for the next
+        developer to understand without a meeting.
       </p>
     </motion.div>
   );
