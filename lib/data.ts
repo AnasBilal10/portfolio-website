@@ -7,6 +7,7 @@ import theClassroomDoor from "@/public/theclassroomdoor.png";
 import zensionTec from "@/public/zensiontec.png";
 import Aegis from "@/public/Aegis.png";
 import NotaryCam from "@/public/NotaryCam.png";
+import Vroozi from "@/public/vroozi.png";
 
 export const links = [
     {
@@ -37,12 +38,19 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Software Engineer - Stewart",
+        title: "Full Stack Developer (Angular - AI SaaS) - Vroozi",
+        location: "California",
+        description: "Building modules and features for an AI-powered procurement SaaS platform used by enterprise B2B clients. Working across the full stack — Angular frontend, complex timeline and workflow modules, and AI-integrated features. Collaborating with US-based product teams remotely.",
+        icon: React.createElement(FaAngular),
+        date: "Oct 2025 - Present"
+    },
+    {
+        title: "Senior Software Engineer - Stewart",
         location: "Houston, Texes",
         description:
-            "Since August 2023, I've been serving as a Senior Software Engineer (Angular Developer) at Stewart. In this role, I focus on developing new features for the Notarycam App while also mentoring fresh graduates.",
+            "Led frontend development on Notarycam, an online legal document notarization platform. Built and maintained Angular features, mentored junior developers, and worked directly with a Houston-based team remotely from Pakistan",
         icon: React.createElement(FaAngular),
-        date: "2023(August) - present",
+        date: "Aug 2023 — Oct 2025",
     },
     {
         title: "Software Engineer - Cinnova",
@@ -50,7 +58,7 @@ export const experiencesData = [
         description:
             "As a full-stack Software Engineer for three months, I delved into NestJS, Redux Toolkit, and Ionic Framework, expanding my skill set within a short timeframe",
         icon: React.createElement(FaReact),
-        date: "2023(June) - 2023(August)",
+        date: "June 2023 - Aug 2023",
     },
     {
         title: "Associate Software Engineer - Rolustech",
@@ -58,7 +66,7 @@ export const experiencesData = [
         description:
             "As an Associate Software Engineer at Rolustech, I secured the position before graduation. Over two years, I mastered ReactJS, Angular, NodeJS, Tailwind, SCSS, Material UI, and NextJS. I also developed strong communication and professional skills.",
         icon: React.createElement(LuGraduationCap),
-        date: "2021(June) - 2023(June)",
+        date: "June 2021 - June 2023",
     },
 ] as const;
 
@@ -90,12 +98,19 @@ export const projectsData = [
     {
         title: "NotaryCam",
         description:
-            // "I am currently working on Notarycam since 8 months. Notarycam allows the users to notarize legal documents online completely",
-            "Currently, I am engaged in Notarycam for 8 months. Notarycam provides users with a seamless online platform for notarizing legal documents.",
+            "NotaryCam is a US-based legal technology platform that enables remote online notarization through secure video sessions — used by law firms, title companies, and financial institutions across the United States.",
         tags: ["Angular", "TypeScript", "MongoDB", "Material UI", "Redis", "AWS", "NodeJs"],
         imageUrl: NotaryCam,
 
     },
+    {
+        title: "Vroozi",
+        description:
+            "Vroozi is a US-based AI-powered procurement SaaS that helps enterprise clients automate purchasing workflows and manage company spending in real time. I build complex modules including timelines and workflow automation, and contribute to AI-integrated features across the full stack — working remotely with a US-based product team.",
+        tags: ["Angular", "AngularJs", "TypeScript", "MongoDB", "Custom Components", "Jenkins", "Rendeck", "NodeJs"],
+        imageUrl: Vroozi,
+
+    }
 ] as const;
 
 export const skillsData = [

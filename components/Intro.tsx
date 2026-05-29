@@ -7,6 +7,7 @@ import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { FaGitSquare } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
+import { SiUpwork } from "react-icons/si";
 import Profile from "../public/Profile_pic.jpg";
 import { useActiveSectionContext } from "@/context-api/active-section-context";
 
@@ -60,12 +61,12 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hi, This is Anas Bilal. I am a{" "}
-        <span className="font-bold"> Software Engineer </span> with three years
-        of professional experience. My expertise lies in developing web
-        applications particularly in the{" "}
-        <span className="font-bold"> MERN/MEAN stack</span>, bringing a
-        comprehensive skill set to every project I undertake.
+        Hi, I'm Anas Bilal —{" "}
+        <span className="font-bold">Software Engineer</span> specializing in{" "}
+        <span className="font-bold">AI Integration & Angular</span>. I help SaaS
+        teams ship AI-powered web apps using Angular, NextJs, JavaScript / TypeScript, and the
+        OpenAI / Claude APIs. 4+ years building production systems. Currently
+        open to freelance and remote work.
       </motion.h1>
 
       <motion.div
@@ -117,6 +118,15 @@ export default function Intro() {
           target="_blank"
         >
           <FaGitSquare className="hover:text-black dark:hover:text-gray-200 opacity-80 group-hover:scale-110 transition" />
+        </a>
+        <a
+            className="group bg-white p-4 text-gray-800 dark:text-gray-200 flex items-center gap-2 rounded-full 
+          outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer
+          border border-b-gray-800/10 dark:border-none dark:bg-white/10 dark:text-white/90 dark:shadow-2xl"
+            href="https://www.upwork.com/freelancers/~0182f182778699001f"
+            target="_blank"
+          >
+  <SiUpwork className="opacity-80 group-hover:scale-110 transition hover:text-black dark:hover:text-gray-200" />
         </a>
       </motion.div>
     </section>

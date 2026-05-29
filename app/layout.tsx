@@ -12,9 +12,9 @@ import ThemeSwitchContext from "@/context-api/theme-switch-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Anas | Personal Porfolio",
+  title: "Anas Bilal | AI Integration Engineer · Angular & TypeScript",
   description:
-    "Anas is Software Engineer. Mainly expert in Frontend Development",
+    "I help SaaS teams integrate AI into their web apps using Angular, NextJs, TypeScript, and the OpenAI / Claude APIs. 4+ years of production experience.",
 };
 
 export default function RootLayout({
