@@ -46,6 +46,7 @@ export default function ThemeSwitchContext({
       setTheme("light");
       document.documentElement.classList.remove("dark");
     }
+    
   }, []);
   return (
     <ThemeContext.Provider value={{ theme, switchTheme }}>
